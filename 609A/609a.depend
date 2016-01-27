@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1450538121 source:c:\users\rapto\documents\codeforces\609a\main.c
+	<stdio.h>
+	<stdlib.h>
+
