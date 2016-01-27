@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1453710114 source:c:\users\user\documents\prog\1b\main.cpp
+	<iostream>
+	<cstdlib>
+	<string>
+	<algorithm>
+
