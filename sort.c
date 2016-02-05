@@ -56,3 +56,6 @@ std::ios::sync_with_stdio(false);  !!! ОТКЛЮЧЕНИЕ СИНХРОНИЗАЦИИ IOSTREAM и STDIO
 bool mysort(vector<int> i,vector<int> j) { return (i[1]<j[1]); }        правило для sort по второму значению вектора векторов
 vector<vector <int> > a (n, vector<int>(2));                              вектор из n веркторов по 2
 sort(a.begin(),a.end(),mysort);                                            n*log(n) сортировка колекции с правилом
+
+min=1;
+minn=-((minn<<(n-(unsigned)?0:1))+1); // максимальное знаковое целочисленное n - число разрядов int32 int64 и проч

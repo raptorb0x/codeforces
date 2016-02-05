@@ -1,5 +1,7 @@
 # depslib dependency file v1.0
-1454402802 source:c:\users\user\documents\prog\codeforces\550a\main.cpp
+1454568743 source:c:\users\user\documents\prog\codeforces\550a\main.cpp
 	<iostream>
 	<string>
+	<vector>
+	<cmath>
 

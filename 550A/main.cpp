@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -7,17 +9,36 @@ int main()
     int diff;
     string in;
     cin>>in;
-    size_t posab = in.find("AB");
-    size_t posba = in.find("BA");
+    vector <size_t> posab;
+    vector <size_t> posba;
+    posba.push_back(in.find("BA"));
 
-    posab=(posab==string::npos)?-1:posab ;
-    posba=(posba==string::npos)?-1:posba ;
-    diff=(int)posab - (int)posba;
-    if(posab==-1 ||posba==-1 || ((-1 <= diff) && (diff <=1)))
+    while (1)
     {
-        cout<<"NO";
-        return 0;
+        posba.push_back(in.find("BA",posba.back()+1));
+        if (posba.back()==string::npos)
+            break;
     }
-    cout<<"YES";
+
+
+    posab.push_back(in.find("AB"));
+    while (1)
+    {
+        posab.push_back(in.find("AB",posab.back()+1));
+        if (posab.back()==string::npos)
+            break;
+    }
+
+    for(int i=0; posba[i]!=string::npos; i++)
+        for(int j=0; posab[j]!=string::npos; j++)
+        {
+            if (abs((int)posba[i]-(int)posab[j])>=2)
+            {
+
+                cout<<"YES";
+                return 0;
+            }
+        }
+    cout<<"NO";
     return 0;
 }
