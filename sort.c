@@ -5,11 +5,14 @@ void insertSort(int* a, int size)
     for (i = 1; i < size; ++i)
     {
         tmp = a[i];
-        for (j = i - 1; j >= 0 && a[j] < tmp; --j)
+        for (j = i - 1; j >= 0 && a[j] < tmp; --j)   //  a[j] < tmp - знак неравенства здесь по возрастанию или убыванию
             a[j + 1] = a[j];
         a[j + 1] = tmp;
     }
 }
+
+
+
 //якобы свзянанная сортировка
 void insertSort(int* a,int* b ,int size)
 {
@@ -50,6 +53,15 @@ for(i=0; i<m; i++)
         }
 
     }
+
+bool prime(long  n){
+    if (n%2==0 && n!=2) return false;
+	for(long i=3;i<=sqrt(n);i+=2)
+		if(n%i==0)
+			return false;
+	return true;
+}
+}
 
 std::ios::sync_with_stdio(false);  !!! ОТКЛЮЧЕНИЕ СИНХРОНИЗАЦИИ IOSTREAM и STDIO только если работать с одним из!!!
 

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1498465643 source:c:\users\user\documents\prog\codeforces\230b\main.cpp
+	<iostream>
+	<cstdio>
+	<cmath>
+
