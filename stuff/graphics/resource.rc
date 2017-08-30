@@ -1,0 +1,10 @@
+
+
+#ifndef RESOURCE_RC_INCLUDED
+#define RESOURCE_RC_INCLUDED
+#include "resource.h"
+
+nameID IMAGE "sun.bmp"
+name1 IMAGE "earth.bmp"
+name2 IMAGE "moon.bmp"
+#endif // RESOURCE_RC_INCLUDED

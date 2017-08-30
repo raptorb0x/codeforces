@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1501744554 source:c:\users\user\documents\prog\codeforces\regexp test\main.cpp
+	<iostream>
+	<regex>
+	<string>
+

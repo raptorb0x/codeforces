@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1450246342 source:c:\users\user\documents\prog\test\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	"resource.h"
+
+1385316878 c:\users\user\documents\prog\test\resource.h
+
+1450246409 source:c:\users\user\documents\prog\test\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+

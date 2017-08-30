@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1501649816 source:c:\users\user\documents\prog\codeforces\sudoku\main.cpp
+	<iostream>
+	<fstream>
+	<windows.h>
+

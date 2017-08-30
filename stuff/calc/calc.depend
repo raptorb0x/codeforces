@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1453461808 source:c:\users\user\documents\prog\calc\main.cpp
+	<fstream>
+
+1453461724 source:c:\users\user\documents\prog\calc\main.c
+	<stdio.h>
+
+1455603862 source:c:\users\user\documents\prog\stuff\calc\long lat.c
+	<stdio.h>
+

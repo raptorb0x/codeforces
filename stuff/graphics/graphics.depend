@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1450187284 source:c:\users\user\documents\prog\graphics\main.cpp
+	<stdio.h>
+	<math.h>
+	<graphics.h>
+	<conio.h>
+	<stdlib.h>
+	<iostream>
+	<malloc.h>
+
+1450184300 source:c:\users\user\documents\prog\graphics\resource.rc
+	"resource.h"
+
+1450182636 c:\users\user\documents\prog\graphics\resource.h
+
+1450182636 source:c:\users\user\documents\prog\graphics\resource.h
+
+1450187284 source:c:\users\user\documents\prog\stuff\graphics\main.cpp
+	<stdio.h>
+	<math.h>
+	<graphics.h>
+	<conio.h>
+	<stdlib.h>
+	<iostream>
+	<malloc.h>
+
+1450182636 source:c:\users\user\documents\prog\stuff\graphics\resource.h
+
+1450184300 source:c:\users\user\documents\prog\stuff\graphics\resource.rc
+	"resource.h"
+
+1450182636 c:\users\user\documents\prog\stuff\graphics\resource.h
+

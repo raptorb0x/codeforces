@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1450688715 source:c:\users\user\documents\prog\3d\main.cpp
+	<stdio.h>
+	<math.h>
+	<graphics.h>
+	<conio.h>
+	<stdlib.h>
+	<iostream>
+	<malloc.h>
+
+1450701640 source:c:\users\user\documents\prog\stuff\3d\main.cpp
+	<stdio.h>
+	<math.h>
+	<graphics.h>
+	<conio.h>
+	<stdlib.h>
+	<iostream>
+	<malloc.h>
+
